@@ -12,6 +12,7 @@
 		432AAD841F311F770052491D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432AAD821F311F770052491D /* Main.storyboard */; };
 		432AAD861F311F770052491D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AAD851F311F770052491D /* Assets.xcassets */; };
 		432AAD891F311F770052491D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432AAD871F311F770052491D /* LaunchScreen.storyboard */; };
+		439201421F3E5885000DFF5F /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439201411F3E5885000DFF5F /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		432AAD851F311F770052491D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432AAD881F311F770052491D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		432AAD8A1F311F770052491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439201411F3E5885000DFF5F /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				432AAD7E1F311F770052491D /* AppDelegate.swift */,
+				439201411F3E5885000DFF5F /* DefinitionViewController.swift */,
 				432AAD801F311F770052491D /* ViewController.swift */,
 				432AAD821F311F770052491D /* Main.storyboard */,
 				432AAD851F311F770052491D /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439201421F3E5885000DFF5F /* DefinitionViewController.swift in Sources */,
 				432AAD811F311F770052491D /* ViewController.swift in Sources */,
 				432AAD7F1F311F770052491D /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				432AAD8F1F311F770052491D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
