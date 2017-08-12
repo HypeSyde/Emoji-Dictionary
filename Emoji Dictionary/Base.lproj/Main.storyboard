@@ -64,22 +64,38 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zg-i7-CeC">
-                                <rect key="frame" x="87" y="104" width="212" height="233"/>
+                                <rect key="frame" x="81.5" y="104" width="212" height="233"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="195"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrT-ap-eaI">
+                                <rect key="frame" x="122.5" y="448" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmb-7Y-vdl">
+                                <rect key="frame" x="129" y="489" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="6Zg-i7-CeC" secondAttribute="trailing" constant="60" id="HMv-UV-G29"/>
+                            <constraint firstItem="6Zg-i7-CeC" firstAttribute="centerX" secondItem="yb1-5o-JsL" secondAttribute="centerX" id="B9C-XG-ZYI"/>
+                            <constraint firstItem="gmb-7Y-vdl" firstAttribute="top" secondItem="VrT-ap-eaI" secondAttribute="bottom" constant="20" id="Eop-oG-9e2"/>
                             <constraint firstItem="nUp-AQ-VrF" firstAttribute="top" secondItem="6Zg-i7-CeC" secondAttribute="bottom" constant="70" id="UNP-Wa-V5f"/>
+                            <constraint firstItem="gmb-7Y-vdl" firstAttribute="centerX" secondItem="yb1-5o-JsL" secondAttribute="centerX" id="bfp-qR-xmM"/>
+                            <constraint firstItem="VrT-ap-eaI" firstAttribute="top" secondItem="nUp-AQ-VrF" secondAttribute="bottom" constant="20" id="dqO-tt-R8g"/>
+                            <constraint firstItem="VrT-ap-eaI" firstAttribute="centerX" secondItem="yb1-5o-JsL" secondAttribute="centerX" id="fsH-i6-pnn"/>
                             <constraint firstItem="nUp-AQ-VrF" firstAttribute="centerX" secondItem="yb1-5o-JsL" secondAttribute="centerX" id="sBN-e5-4Gp"/>
-                            <constraint firstItem="6Zg-i7-CeC" firstAttribute="leading" secondItem="yb1-5o-JsL" secondAttribute="leadingMargin" constant="71" id="t0a-g8-dia"/>
                             <constraint firstItem="6Zg-i7-CeC" firstAttribute="top" secondItem="nVK-Zv-gN5" secondAttribute="bottom" constant="40" id="t4b-Sg-pC6"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="definitionEmoji" destination="nUp-AQ-VrF" id="bjN-xM-Zto"/>
                         <outlet property="emojiLabel" destination="6Zg-i7-CeC" id="ulh-Bz-4TO"/>
                     </connections>
                 </viewController>
