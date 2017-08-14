@@ -95,6 +95,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLabel" destination="gmb-7Y-vdl" id="OGk-ns-YmK"/>
+                        <outlet property="categoryLabel" destination="VrT-ap-eaI" id="6fp-G8-dop"/>
                         <outlet property="definitionEmoji" destination="nUp-AQ-VrF" id="bjN-xM-Zto"/>
                         <outlet property="emojiLabel" destination="6Zg-i7-CeC" id="ulh-Bz-4TO"/>
                     </connections>

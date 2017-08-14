@@ -13,6 +13,7 @@
 		432AAD861F311F770052491D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432AAD851F311F770052491D /* Assets.xcassets */; };
 		432AAD891F311F770052491D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432AAD871F311F770052491D /* LaunchScreen.storyboard */; };
 		439201421F3E5885000DFF5F /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439201411F3E5885000DFF5F /* DefinitionViewController.swift */; };
+		439201441F41F704000DFF5F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439201431F41F704000DFF5F /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		432AAD881F311F770052491D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		432AAD8A1F311F770052491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439201411F3E5885000DFF5F /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
+		439201431F41F704000DFF5F /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../../File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				432AAD7E1F311F770052491D /* AppDelegate.swift */,
 				439201411F3E5885000DFF5F /* DefinitionViewController.swift */,
+				439201431F41F704000DFF5F /* File.swift */,
 				432AAD801F311F770052491D /* ViewController.swift */,
 				432AAD821F311F770052491D /* Main.storyboard */,
 				432AAD851F311F770052491D /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				439201421F3E5885000DFF5F /* DefinitionViewController.swift in Sources */,
+				439201441F41F704000DFF5F /* File.swift in Sources */,
 				432AAD811F311F770052491D /* ViewController.swift in Sources */,
 				432AAD7F1F311F770052491D /* AppDelegate.swift in Sources */,
 			);
